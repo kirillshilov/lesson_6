@@ -18,7 +18,7 @@ public class Main { int[] arr = generateRandomArray();
             for (int element : generateRandomArray()) {
                 sum = sum + element;
             }
-            System.out.println(sum);
+            System.out.println("Полная сумма трат за месяц " + sum);
         }
         {
             // Задача 2
